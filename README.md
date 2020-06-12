@@ -1,14 +1,14 @@
 # Proyecto_Final_DAM-
-Proyecto Final para el Ciclo Formativo Superior de Desarrollo de Aplicaciones Multiplataforma
-Aplicación para Android llamada StudentIn
+Proyecto Final para el Ciclo Formativo Superior de Desarrollo de Aplicaciones Multiplataforma.
+Aplicación para Android llamada StudentIn.
+CALIFICACIÓN FINAL DE StudentIn: 10/10.
 
-El objetivo principal que he conservado en todo momento no ha sido
-simplemente cumplir una serie de requisitos para obtener una calificación.
-Esta aplicación ha sido para mí una experiencia más allá de una valoración numérica
-entre el 0 y el 10. Los objetivos generales que me he marcado han sido los que paso a
-enumerar a continuación:
- Realizar una aplicación que realmente satisfaga una necesidad para la
-comunidad a la que va dirigida.
+El objetivo principal que he conservado en todo momento no ha sido simplemente cumplir una serie de requisitos para obtener una calificación.
+
+Esta aplicación ha sido para mí una experiencia más allá de una valoración numérica entre el 0 y el 10. Los objetivos generales que me he marcado han sido los que paso a enumerar a continuación:
+<ul>
+<li>Realizar una aplicación que realmente satisfaga una necesidad para la comunidad a la que va dirigida.</li>
+  </ul>
  Crear una App funcional. 
  Evitar fallos en la aplicación, construyendo una App segura y robusta.
  Procurar que la interfaz de usuario fuese atractiva, sencilla e intuitiva.
