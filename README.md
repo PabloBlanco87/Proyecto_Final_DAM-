@@ -1,7 +1,11 @@
 # Proyecto_Final_DAM-
 Proyecto Final para el Ciclo Formativo Superior de Desarrollo de Aplicaciones Multiplataforma.
-Aplicación para Android llamada StudentIn.
-CALIFICACIÓN FINAL DE StudentIn: 10/10.
+
+<b>StudentIn</b>
+
+Se trata de una aplicación para Android desarrollada en lenguaje Java.
+
+<p style="color:#FF0000";>NOTA FINAL DE StudentIn: 10/10.</p>
 
 El objetivo principal que he conservado en todo momento no ha sido simplemente cumplir una serie de requisitos para obtener una calificación.
 
