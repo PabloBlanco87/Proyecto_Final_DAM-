@@ -5,7 +5,7 @@ Proyecto Final para el Ciclo Formativo Superior de Desarrollo de Aplicaciones Mu
 
 Se trata de una aplicación para Android desarrollada en lenguaje Java.
 
-<p style="color:red;">NOTA FINAL DE StudentIn: 10/10.</p>
+NOTA FINAL DE StudentIn: <b>10/10.
 
 El objetivo principal que he conservado en todo momento no ha sido simplemente cumplir una serie de requisitos para obtener una calificación.
 
