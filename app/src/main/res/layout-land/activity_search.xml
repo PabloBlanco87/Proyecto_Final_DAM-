@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/colorFondo"
+    tools:context=".clasesPrincipales.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorFondo"
+        android:gravity="center|top"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_eleccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margen"
+                android:layout_marginBottom="@dimen/margenMinimo"
+                android:text="@string/pregunta"
+                android:textAlignment="center"
+                android:textColor="@color/colorTexto"
+                android:textSize="@dimen/pregunta"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margen"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_rounded"
+                    android:onClick="goToShowAlumnos"
+                    android:text="@string/alumno"
+                    android:textColor="@color/colorTexto" />
+
+                <Button
+                    android:id="@+id/btn_profesor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margen"
+                    android:layout_marginRight="@dimen/margen"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_rounded"
+                    android:onClick="goToShowProfesores"
+                    android:text="@string/profesor"
+                    android:textColor="@color/colorTexto" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_chats"
+                android:layout_width="@dimen/tamanyoBoton"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_rounded_marc"
+                android:onClick="goToMyChat"
+                android:text="@string/mis_chats" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/imagen"
+            android:layout_height="@dimen/imagen"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margen"
+            android:src="@drawable/think" />
+
+    </LinearLayout>
+
+</ScrollView>

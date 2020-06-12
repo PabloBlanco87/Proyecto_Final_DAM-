@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:gravity="center|top"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margenSuperior"
+            android:text="@string/tv_materias_a_enseniar"
+            android:textAlignment="center"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_anade_cursos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margen"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded_marc"
+                android:text="@string/add_materias" />
+
+            <Button
+                android:id="@+id/save_cursos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded"
+                android:enabled="false"
+                android:text="@string/terminar_registro"
+                android:textColor="@color/colorTexto" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvItemSelected_cursos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/textoAbout"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/imagen"
+        android:layout_height="@dimen/imagen"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/margen"
+        android:layout_weight="8"
+        android:src="@drawable/subjecticon" />
+
+</LinearLayout>

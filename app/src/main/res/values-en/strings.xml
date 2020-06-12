@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">StudentIn</string>
+    <string name="introduce_an_email">Enter an email address</string>
+    <string name="email_example">isaac.newton@gmail.com</string>
+    <string name="introduce_a_password">Enter a password</string>
+    <string name="password_example">Password</string>
+    <string name="user_register">REGISTER USER</string>
+    <string name="user_login">LOGUIN</string>
+    <string name="profesor">Teachers</string>
+    <string name="alumno">Students</string>
+    <string name="pregunta">What are you looking for?</string>
+    <string name="name">Name</string>
+    <string name="surnames">Surname</string>
+    <string name="email">Email adress</string>
+    <string name="phone">Phone</string>
+    <string name="province">Province:</string>
+    <string name="go_to_register">New here?</string>
+    <string name="categoria">" Category:"</string>
+    <string name="asignaturas">"Subjects: "</string>
+    <string name="info_adicional">" Enter a short course description"</string>
+    <string name="guardar_cursos">Register subject</string>
+    <string name="promp_text">Category</string>
+    <string name="save_data">Create your profile!</string>
+    <string name="info_alumno">Add something about yourself</string>
+    <string name="profesor_register">Continue</string>
+    <string name="make_an_order">Add your interest</string>
+    <string name="dialog_titulo_intereses">What are your interest?</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Decline</string>
+    <string name="clear_all_label">Clean all</string>
+    <string name="ccaa">Comunity</string>
+    <string name="about">\n
+This application has been developed as a Final Degree Development Project for the Instituto Ilerna.\n \nTutor: Álvaro Ortega. \n\nAuthor: Pablo Blanco. \n\nMay, 2020</string>
+    <string name="dialog_curso">" What can you teach?"</string>
+    <string name="search_interes">Search by interest</string>
+    <string name="default_notification_channel_id">default channel</string>
+    <string name="tv_materias_a_enseniar">Add here all the subjects you can teach</string>
+    <string name="add_materias">Add subjects</string>
+    <string name="terminar_registro">End register</string>
+    <string name="tv_add_intereses">Before start,\n add your interest</string>
+    <string name="add_intereses">Add interest</string>
+    <string name="fecha_nacimiento">" Date of birth"</string>
+    <string name="estudios_finalizados">Studies completed:</string>
+    <string name="registrarse">Register</string>
+    <string name="experiencia_sector">" Professional experience:"</string>
+    <string name="estudiante_vs_profesor">Are you a student, or are you a teacher?</string>
+    <string name="soy_estudiante">I\'m a student</string>
+    <string name="soy_profesor">I\'m a teacher</string>
+    <string name="bienvenido">Welcome! Let\'s start with registration</string>
+    <string name="introduce_correo">" Enter a valid email"</string>
+    <string name="introduce_password">Enter a password</string>
+    <string name="next">Next...</string>
+    <string name="mis_chats">My chats</string>
+    <string name="busca_nombre">Search by name...</string>
+    <string name="search_provincia">Search by province</string>
+    <string name="search_materias">SEARCH BY SUBJECT</string>
+    <string name="iniciar_chat">Start chat</string>
+    <string name="escribe_tu_mensaje">Write a message</string>
+    <string name="enviar">SEND</string>
+    <string name="alumnos">Students:</string>
+    <string name="profesores">Teachers:</string>
+    <string name="show_estudios">Studies completed:</string>
+    <string name="show_edad">Age:</string>
+    <string name="show_provincia">Province:</string>
+    <string name="show_experiencia">Experience:</string>
+    <string name="show_campo_requerido">Required field</string>
+    <string name="show_years">years.</string>
+    <string name="show_estoy_en">I\'m stay in:</string>
+    <string name="show_email">E-mail: </string>
+    <string name="show_telefono">Phone:</string>
+    <string name="show_about_me">About me:</string>
+    <string name="show_experiencia_sector">Experience:</string>
+    <string name="show_seleccion">Selected:</string>
+    <string name="show_alumno_guardado">Saved Student!</string>
+    <string name="show_profesor_guardado">Saved Teacher!</string>
+    <string name="show_introduzca_nombre">Enter a name</string>
+    <string name="show_accediendo">Log in...</string>
+    <string name="show_registrando">Registering user...</string>
+    <string name="show_accediendo_ok">" Has successfully accessed"</string>
+    <string name="show_usuario_existente">"This user already exists "</string>
+    <string name="show_problema_registro">Could not register user</string>
+    <string name="dialog_intereses_buscados">" Select the interest you are looking for"</string>
+    <string name="dialog_provincia_buscada">" Select the province where you are looking for"</string>
+    <string name="dialog_aniade_materia">Add the subjects that you can teach</string>
+    <string name="dialog_materia_buscada">" Select the subject where you are looking for"</string>
+    <string name="show_estas_seguro_borrar">" Are you sure that you want to delete the profile?"</string>
+    <string name="show_estas_seguro_modificar">" Are you sure that you want to modify the profile?"</string>
+    <string name="show_seguro">I\'m sure</string>
+    <string name="show_no_seguro">No</string>
+    <string name="show_atencion">¡ATENTION!</string>
+    <string name="show_usuario_registrado">" Registered user successfully"</string>
+    <string name="show_no_registrado">Could not register user</string>
+    <string name="imagenDescription">Image</string>
+    <string name="show_problema_loguin">"User not found "</string>
+    <string name="repite">Repeat your password</string>
+    <string name="min_caracteres">Passwor must have 6 -8 caracters</string>
+    <string name="no_coincide">" The entered password does not match"</string>
+
+    <string-array name="intereses_item">
+        <item>Desarrollo Web</item>
+        <item>Aplicaciones móviles</item>
+        <item>Lenguajes de programación</item>
+        <item>Desarrollo de videojuegos</item>
+        <item>Bases de datos</item>
+        <item>Redes de seguridad</item>
+        <item>Hardware</item>
+        <item>Sistemas operativos</item>
+        <item>Diseño web</item>
+        <item>Diseño gráfico</item>
+        <item>Herramientas de diseño</item>
+    </string-array>
+
+    <string-array name="array_CCAA">
+        <item>Andalucía</item>
+        <item>Aragón</item>
+        <item>Asturias</item>
+        <item>Baleares</item>
+        <item>Canarias</item>
+        <item>Cantabria</item>
+        <item>Castilla-La Mancha</item>
+        <item>Castilla y León</item>
+        <item>Cataluña</item>
+        <item>Extremadura</item>
+        <item>Galicia</item>
+        <item>La Rioja</item>
+        <item>Madrid</item>
+        <item>Murcia</item>
+        <item>Navarra</item>
+        <item>País Vasco</item>
+        <item>Valencia</item>
+    </string-array>
+
+    <string-array name="array_andalucia">
+        <item>Huelva</item>
+        <item>Sevilla</item>
+        <item>Córdoba</item>
+        <item>Jaén</item>
+        <item>Cádiz</item>
+        <item>Málaga</item>
+        <item>Granada</item>
+        <item>Almería</item>
+    </string-array>
+
+    <string-array name="array_aragon">
+        <item>Huesca</item>
+        <item>Zaragoza</item>
+        <item>Teruel</item>
+    </string-array>
+
+    <string-array name="array_asturias">
+        <item>Asturias</item>
+    </string-array>
+
+    <string-array name="array_baleares">
+        <item>Mallorca</item>
+        <item>Menorca</item>
+        <item>Ibiza</item>
+    </string-array>
+
+    <string-array name="array_canarias">
+        <item>Tenerife</item>
+        <item>Las Palmas</item>
+    </string-array>
+
+    <string-array name="array_cantabria">
+        <item>Cantabria</item>
+    </string-array>
+
+    <string-array name="array_lamancha">
+        <item>Guadalajara</item>
+        <item>Toledo</item>
+        <item>Cuenca</item>
+        <item>Ciudad Real</item>
+        <item>Albacete</item>
+    </string-array>
+
+    <string-array name="array_leon">
+        <item>León</item>
+        <item>Palencia</item>
+        <item>Burgos</item>
+        <item>Zamora</item>
+        <item>Valladolid</item>
+        <item>Soria</item>
+        <item>Segovia</item>
+        <item>Salamanca</item>
+        <item>Ávila</item>
+    </string-array>
+
+    <string-array name="array_catalunya">
+        <item>LLeida</item>
+        <item>Barcelona</item>
+        <item>Girona</item>
+        <item>Tarragona</item>
+    </string-array>
+
+    <string-array name="array_extremadura">
+        <item>Cáceres</item>
+        <item>Badajoz</item>
+    </string-array>
+
+    <string-array name="array_galicia">
+        <item>A Coruña</item>
+        <item>Lugo</item>
+        <item>Pontevedra</item>
+        <item>Orense</item>
+    </string-array>
+
+    <string-array name="array_rioja">
+        <item>La Rioja</item>
+    </string-array>
+
+    <string-array name="array_madrid">
+        <item>Madrid</item>
+    </string-array>
+
+    <string-array name="array_murcia">
+        <item>Murcia</item>
+    </string-array>
+
+    <string-array name="array_navarra">
+        <item>Navarra</item>
+    </string-array>
+
+    <string-array name="array_vasco">
+        <item>Vizcaya</item>
+        <item>Guipúzcoa</item>
+        <item>Álava</item>
+    </string-array>
+
+    <string-array name="array_valencia">
+        <item>Alicante</item>
+        <item>Castellón</item>
+        <item>Valencia</item>
+    </string-array>
+
+    <string-array name="array_provincias">
+        <item>A Coruña</item>
+        <item>Álava</item>
+        <item>Albacete</item>
+        <item>Alicante</item>
+        <item>Almería</item>
+        <item>Asturias</item>
+        <item>Ávila</item>
+        <item>Badajoz</item>
+        <item>Barcelona</item>
+        <item>Burgos</item>
+        <item>Cáceres</item>
+        <item>Cádiz</item>
+        <item>Cantabria</item>
+        <item>Castellón</item>
+        <item>Ciudad Real</item>
+        <item>Córdoba</item>
+        <item>Cuenca</item>
+        <item>Girona</item>
+        <item>Granada</item>
+        <item>Guadalajara</item>
+        <item>Guipúzcoa</item>
+        <item>Huelva</item>
+        <item>Huesca</item>
+        <item>Ibiza</item>
+        <item>Jaén</item>
+        <item>La Rioja</item>
+        <item>Las Palmas</item>
+        <item>León</item>
+        <item>LLeida</item>
+        <item>Lugo</item>
+        <item>Madrid</item>
+        <item>Málaga</item>
+        <item>Mallorca</item>
+        <item>Menorca</item>
+        <item>Murcia</item>
+        <item>Navarra</item>
+        <item>Orense</item>
+        <item>Palencia</item>
+        <item>Pontevedra</item>
+        <item>Salamanca</item>
+        <item>Segovia</item>
+        <item>Sevilla</item>
+        <item>Soria</item>
+        <item>Tarragona</item>
+        <item>Tenerife</item>
+        <item>Teruel</item>
+        <item>Toledo</item>
+        <item>Valencia</item>
+        <item>Valladolid</item>
+        <item>Vizcaya</item>
+        <item>Zamora</item>
+        <item>Zaragoza</item>
+    </string-array>
+
+    <string-array name="array_estudios_terminados">
+        <item>Graduado Escolar</item>
+        <item>FP Medio</item>
+        <item>FP Superior</item>
+        <item>Bachillerato</item>
+        <item>Enseñanza Universitaria</item>
+    </string-array>
+
+    <string-array name="array_experiencia_profesor">
+        <item>De 0 a 2 años</item>
+        <item>De 2 a 5 años</item>
+        <item>De 5 a 9 años</item>
+        <item>De 10 a 15 años</item>
+        <item>Más de 15 años</item>
+    </string-array>
+
+    <string-array name="array_materias">
+        <item>JavaScript</item>
+        <item>Angular</item>
+        <item>React</item>
+        <item>CSS</item>
+        <item>PHP</item>
+        <item>Python</item>
+        <item>Desarrollo en Android</item>
+        <item>Desarrollo en IOS</item>
+        <item>Kotlin</item>
+        <item>Ionic</item>
+        <item>Java</item>
+        <item>C Sharp</item>
+        <item>C++</item>
+        <item>Unity</item>
+        <item>Unreal Engine</item>
+        <item>Desarrollo de juegos para móviles</item>
+        <item>SQL</item>
+        <item>MySQL</item>
+        <item>Oracle SQL</item>
+        <item>MongoDB</item>
+        <item>Seguridad Informática</item>
+        <item>Seguridad de la red</item>
+        <item>Hacking ético</item>
+        <item>PLC</item>
+        <item>Arduino</item>
+        <item>Raspberry</item>
+        <item>Reparación de Smartphones</item>
+        <item>Linux</item>
+        <item>Windows</item>
+        <item>Windows Server</item>
+        <item>PowerShell</item>
+        <item>PhotoShop</item>
+        <item>HTML</item>
+        <item>HTML5</item>
+        <item>InDesign</item>
+        <item>AUTOCAD</item>
+    </string-array>
+
+</resources>

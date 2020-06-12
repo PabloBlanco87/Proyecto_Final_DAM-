@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:padding="@dimen/margen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margen"
+            android:text="@string/estudiante_vs_profesor"
+            android:textAlignment="center"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="@dimen/imagen"
+            android:layout_height="@dimen/imagen"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margen"
+            android:background="@drawable/selecticon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margen"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_reg_estudiante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margen"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded_marc"
+                android:text="@string/soy_estudiante" />
+
+            <Button
+                android:id="@+id/btn_registro_profesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded_marc"
+                android:text="@string/soy_profesor" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

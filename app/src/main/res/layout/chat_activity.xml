@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:orientation="vertical"
+    android:padding="@dimen/margen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/foto_perfil"
+            android:layout_width="@dimen/margenSuperior"
+            android:layout_height="@dimen/margenSuperior"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nombre_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+        <ImageButton
+            android:id="@+id/goHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_notification_clear_all"
+            android:layout_gravity="right"
+            android:layout_marginLeft="@dimen/margen"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txt_mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/escribe_tu_mensaje"
+            android:textColor="@color/colorTexto" />
+
+        <Button
+            android:id="@+id/btn_enviar_mensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded_marc"
+            android:text="@string/enviar"
+            android:textColor="@color/colorTexto" />
+    </LinearLayout>
+
+</LinearLayout>

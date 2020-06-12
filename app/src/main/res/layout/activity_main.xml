@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/margen"
+    tools:context=".clasesPrincipales.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/imagen"
+            android:layout_height="@dimen/imagen"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margenSuperior"
+            android:contentDescription="@string/imagenDescription"
+            android:src="@drawable/keylogin" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margenMenos"
+                android:autofillHints=""
+                android:hint="@string/email_example"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorTexto" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenMenos">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/password_example"
+                android:inputType="textPassword"
+                android:textColor="@color/colorTexto" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_loguear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenMinimo"
+            android:layout_marginBottom="@dimen/margenMinimo"
+            android:background="@drawable/button_rounded_marc"
+            android:text="@string/user_login"
+            android:textSize="@dimen/textoAbout"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:text="@string/go_to_register"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+    </LinearLayout>
+
+</ScrollView>

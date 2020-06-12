@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DIMENSIONES DE OBJETOS  -->
+    <dimen name="margen">30dp</dimen>
+    <dimen name="margenMitad">15dp</dimen>
+    <dimen name="margenMenos">20dp</dimen>
+    <dimen name="margenMinimo">10dp</dimen>
+    <dimen name="margenSuperior">50dp</dimen>
+    <dimen name="margenBottom">5dp</dimen>
+    <dimen name="tamanyoBoton">150dp</dimen>
+    <dimen name="imagen">200dp</dimen>
+    <dimen name="grosorBarra">3dp</dimen>
+    <dimen name="imagenAvatar">48dp</dimen>
+    <dimen name="imagenChat">24dp</dimen>
+    <dimen name="margenChat">5dp</dimen>
+    <dimen name="imagenHorizontal">100dp</dimen>
+    <dimen name="tvHorizontal">400dp</dimen>
+
+
+
+    <!-- DIMENSIONES DE TEXTOS  -->
+    <dimen name="pregunta">30sp</dimen>
+    <dimen name="textoAbout">20sp</dimen>
+    <dimen name="bienvenida">25sp</dimen>
+    <dimen name="textoNormal">18sp</dimen>
+    <dimen name="textoNombre">28sp</dimen>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorFondo"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margenBottom">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cir_foto_perfil"
+            android:layout_width="@dimen/imagenAvatar"
+            android:layout_height="@dimen/imagenAvatar"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_nombre_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_apellido_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_id_alumno"
+        android:layout_width="@dimen/grosorBarra"
+        android:layout_height="@dimen/grosorBarra"
+        android:textColor="@color/colorTexto"
+        android:visibility="invisible" />
+
+</LinearLayout>

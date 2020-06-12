@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:padding="@dimen/margen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="@dimen/tamanyoBoton"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button_rounded_marc"
+            android:onClick="goToChatear"
+            android:text="@string/iniciar_chat"
+            android:textColor="@color/colorTexto" />
+
+        <TextView
+            android:id="@+id/consulta_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoNombre"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consulta_apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoNombre" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/grosorBarra"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/consulta_edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+        <TextView
+            android:id="@+id/consulta_provincia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+        <TextView
+            android:id="@+id/consulta_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+        <TextView
+            android:id="@+id/consulta_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+        <TextView
+            android:id="@+id/consulta_estudios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/grosorBarra"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/consulta_infoAdicional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:textColor="@color/colorTexto"
+            android:textSize="@dimen/textoAbout" />
+
+    </LinearLayout>
+
+</ScrollView>

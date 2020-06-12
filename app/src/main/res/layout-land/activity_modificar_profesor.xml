@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen"
+        android:layout_marginRight="@dimen/margenSuperior"
+        android:layout_marginLeft="@dimen/margenSuperior"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_nombre_perfil_profesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margenBottom"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorTexto" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_apellido_perfil_profesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margenBottom"
+                android:hint="@string/surnames"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorTexto" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_edad_perfil_profesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_outborder"
+                android:text="@string/fecha_nacimiento"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTexto" />
+
+            <TextView
+                android:id="@+id/et_edad_perfil_profesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorTexto" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_telefono_perfil_profesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margenBottom"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:textColor="@color/colorTexto" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ccaa"
+                android:textColor="@color/colorTexto"
+                android:textSize="@dimen/textoNormal" />
+
+            <Spinner
+                android:id="@+id/sp_ccaa_perfil_profesor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:textColor="@color/colorTexto" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenBottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/province"
+                android:textColor="@color/colorTexto"
+                android:textSize="@dimen/textoNormal" />
+
+            <Spinner
+                android:id="@+id/sp_provincia_perfil_profesor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:textColor="@color/colorTexto" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margenMinimo"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/experiencia_sector"
+                android:textColor="@color/colorTexto"
+                android:textSize="@dimen/textoNormal" />
+
+            <Spinner
+                android:id="@+id/sp_experiencia_perfil_profesor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:textColor="@color/colorTexto" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_email_registro_perfil_profesor"
+            android:layout_width="0.01dp"
+            android:layout_height="0.01dp"
+            android:enabled="false"
+            android:textColor="@color/colorTexto"
+            android:visibility="invisible" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_info_perfil_profesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margenBottom"
+                android:gravity="bottom"
+                android:hint="@string/info_alumno"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:maxLines="10"
+                android:minLines="4"
+                android:scrollbars="vertical"
+                android:textColor="@color/colorTexto" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_registro_perfil_profesor"
+            android:layout_width="@dimen/tamanyoBoton"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenMinimo"
+            android:background="@drawable/button_rounded_marc"
+            android:text="@string/registrarse"
+            android:textSize="@dimen/textoNormal" />
+        <Button
+            android:layout_width="@dimen/tamanyoBoton"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_outborder"/>
+
+    </LinearLayout>
+
+</ScrollView>

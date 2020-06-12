@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTexto">#A7FFEB</color>
+    <color name="colorProfesores">#D18770</color>
+    <color name="colorAlumnos">#89AED8</color>
+    <color name="colorFondo">#202732</color>
+    <color name="colorMensajeReceptor">#4CAF50</color>
+    <color name="colorMensajeEmisor">#3F51B5</color>
+    <color name="colorTextoSeleccionado">#FF9380</color>
+</resources>
