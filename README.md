@@ -5,7 +5,7 @@ Proyecto Final para el Ciclo Formativo Superior de Desarrollo de Aplicaciones Mu
 
 Se trata de una aplicación para Android desarrollada en lenguaje Java.
 
-<p style="color:#FF0000";>NOTA FINAL DE StudentIn: 10/10.</p>
+<p style="color:red;">NOTA FINAL DE StudentIn: 10/10.</p>
 
 El objetivo principal que he conservado en todo momento no ha sido simplemente cumplir una serie de requisitos para obtener una calificación.
 
@@ -33,6 +33,7 @@ El funcionamiento a grandes rasgos de la aplicación será el siguiente:
 <li>Los usuarios puedan hacer búsquedas con filtrado de datos tipo: por provincia, por materia a aprender, etc...</li>
 <li>La aplicación constará de un apartado “Mi perfil” en el que una vez registrado y logueado pueda cambiar mis datos y mis intereses, por si por ejemplo, cambio de provincia, o de teléfono, o de los intereses que me motivan.</li> 
   </ol>
+  
 La aplicación contiene un chat interno, en el que un alumno, una vez haya visto una ficha de un profesor y éste le interese, pueda contactar con él directamente por el chat de la aplicación y así no tener que recurrir a una plataforma secundaria como WhatsApp, teléfono o correo electrónico.
 
 Esta aplicación podrá ampliarse, ya que no solo se tiene por qué dedicar a el sector IT, también puede abrirse a otros campos, como idiomas, o para apoyo en materias escolares. 
